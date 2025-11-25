@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IM DESIGN LTDA</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: #f5f4ef;
+            color: #2b2b2b;
+            font-size: 22px; /* Текст крупнее */
+        }
+
+        header {
+            background-color: #e8e6df;
+            padding: 20px 40px;
+            border-bottom: 3px solid #c4c2b9;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            margin-right: 25px;
+            color: #2b2b2b;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        section {
+            padding: 80px 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 3px solid #d7d5cf;
+        }
+
+        section:nth-child(even) {
+            background-color: #edece7;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .text-block {
+            width: 55%;
+            line-height: 1.5;
+        }
+
+        .image-block img {
+            width: 420px;
+            height: auto;
+            border-radius: 15px;
+            border: 6px solid #d0cec7;
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 18px 32px;
+            background-color: #a38c6c;
+            color: white;
+            font-size: 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+        }
+
+        /* Контакты */
+        .contact-section {
+            flex-direction: row;
+            height: 100vh;
+        }
+
+        .contact-info {
+            width: 45%;
+        }
+
+        .contact-form {
+            width: 45%;
+            background-color: #f2f1ec;
+            padding: 30px;
+            border-radius: 15px;
+            border: 5px solid #c9c7bf;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+        }
+
+        input, textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 3px solid #b8b6ae;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 22px;
+            background-color: #8c775a;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #d6d3cc;
+            padding: 40px;
+            text-align: center;
+            font-size: 22px;
+            border-top: 4px solid #b8b5ac;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Quem Somos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contatos">Contatos</a>
+    </nav>
+</header>
+
+<!-- 1. Главный экран -->
+<section id="inicio">
+    <div class="text-block">
+        <h2><b style="font-family:'Times New Roman'; font-size:48px;">IM DESIGN LTDA</b></h2>
+        <p style="font-size:26px;">
+            Elevamos marcas através de estratégias precisas e soluções criativas que conectam empresas ao público certo. 
+            Nosso foco é transformar presença digital em crescimento real, unindo tecnologia, design e posicionamento inteligente.
+        </p>
+        <a href="#contatos" class="button">Contatos</a>
+    </div>
+    <div class="image-block">
+        <img src="https://media.istockphoto.com/id/2157518743/photo/a-confident-and-happy-group-of-business-co-workers-showing-teamwork-in-formal-dress-in-an.webp?a=1&b=1&s=612x612&w=0&k=20&c=LBsjQ2eTgezx3SWnJOvMxebZN85t4QrjAkfLWwDJcgE=" alt="Design Realista">
+    </div>
+</section>
+
+<!-- 2. Про нас -->
+<section id="sobre">
+    <div class="text-block">
+        <h2>Quem Somos de Verdade</h2>
+        <p>
+            A IM DESIGN LTDA é uma agência que nasceu da necessidade de unir criatividade com estratégia funcional. 
+            Atuamos com consultoria de marca, marketing digital e desenvolvimento de campanhas orientadas por dados.
+            Nosso time combina experiência técnica e sensibilidade artística para criar projetos que se destacam naturalmente. 
+            Trabalhamos com empresas em crescimento que buscam se diferenciar em um mercado cada vez mais competitivo. 
+            Entregamos soluções sob medida, alinhadas aos objetivos reais do cliente e focadas em resultados consistentes.
+        </p>
+    </div>
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt="Equipe criativa">
+    </div>
+</section>
+
+<!-- 3. Сервисы -->
+<section id="servicos">
+    <div class="text-block">
+        <h2>Nossos Serviços Especializados</h2>
+
+        <h3>● Marketing & Publicidade Estratégica</h3>
+        <p>
+            Criamos campanhas que combinam storytelling com análise de comportamento. Nosso objetivo é amplificar a relevância 
+            da sua marca e atrair clientes ideais através de ações inteligentes e mensuráveis.
+        </p>
+
+        <h3>● SEO & Crescimento Orgânico</h3>
+        <p>
+            Implementamos otimizações profundas que aumentam visibilidade, autoridade e tráfego qualificado. 
+            Nossa abordagem combina técnica avançada com análise constante de performance.
+        </p>
+
+        <h3>● Consultoria de Branding</h3>
+        <p>
+            Construímos identidades de marca com propósito, personalidade e coerência. 
+            Do posicionamento visual à comunicação, estruturamos marcas fortes e inesquecíveis.
+        </p>
+    </div>
+
+    <div class="image-block">
+    </div>
+</section>
+
+<!-- 4. Преимущества -->
+<section id="vantagens">
+    <div class="text-block">
+        <h2>Por Que Escolher a IM DESIGN</h2>
+
+        <h3>✔ Foco em Resultados Reais</h3>
+        <p>
+            Não apostamos em achismos — tomamos decisões baseadas em métricas, comportamento do público e objetivos tangíveis.
+        </p>
+
+        <h3>✔ Estratégias Personalizadas</h3>
+        <p>
+            Cada projeto é construído para a necessidade específica de cada cliente, sem soluções genéricas ou automáticas.
+        </p>
+
+        <h3>✔ Criatividade com Propósito</h3>
+        <p>
+            Unimos design sofisticado com clareza de comunicação, dando à sua marca mais impacto e memorabilidade.
+        </p>
+    </div>
+
+    <div class="image-block">
+    </div>
+</section>
+
+<!-- 5. Наш процесс -->
+<section id="processo">
+    <div class="text-block">
+        <h2>Nosso Processo de Trabalho</h2>
+
+        <h3>1. Diagnóstico Estratégico</h3>
+        <p>
+            Realizamos um estudo detalhado do posicionamento atual da marca, público-alvo e oportunidades reais de crescimento.
+        </p>
+
+        <h3>2. Construção & Planejamento</h3>
+        <p>
+            Desenvolvemos estratégias personalizadas e estruturamos um plano completo para execução eficiente e assertiva.
+        </p>
+
+        <h3>3. Execução & Otimização</h3>
+        <p>
+            Implementamos campanhas, monitoramos resultados e ajustamos continuamente para garantir máxima performance.
+        </p>
+    </div>
+
+    <div class="image-block">
+    </div>
+</section>
+
+<!-- 6. Контакты -->
+<section id="contatos" class="contact-section">
+    <div class="contact-info">
+        <h2>Entre em Contato Conosco</h2>
+        <p>
+            Fale com nossa equipe pelo e-mail abaixo. Estamos prontos para ouvir seu projeto e transformar suas ideias em resultados concretos.  
+            A criatividade só faz sentido quando aplicada estrategicamente — e estamos aqui para provar isso.
+        </p>
+        <p><b>E-mail:</b> support@imdesign.my</p>
+        <p><b>Endereço:</b> Av. Dom Luis 880 S 506, 60160-196 Fortaleza</p>
+    </div>
+
+    <div class="contact-form">
+        <h3>Formulário de Contato</h3>
+        <input type="text" placeholder="Seu Nome" />
+        <input type="email" placeholder="Seu E-mail" />
+        <textarea rows="5" placeholder="Sua Mensagem"></textarea>
+        <button>Enviar</button>
+    </div>
+</section>
+
+<!-- 7. Футер -->
+<footer>
+    © 2025 IM DESIGN LTDA — Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
